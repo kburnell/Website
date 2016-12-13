@@ -43,6 +43,11 @@ strong {
   padding-right: 10px;
 }
 
+#ellipse-container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 #top-ellipse {
   z-index: -1;
   position: absolute;
@@ -91,6 +96,10 @@ strong {
 
   padding: 30px 30px;
   background-color:  #00cbc4;
+}
+
+#footer-ellipse-container>.row {
+    margin-right: 0;
 }
 
 #footer-percy {
