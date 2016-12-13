@@ -51,8 +51,12 @@ strong {
 #top-ellipse {
   z-index: -1;
   position: absolute;
+  padding-right: 0;
 }
 
+#top-ellipse>img {
+    float: right;
+}
 
 .blueSection {
   font-family: 'Open Sans', sans-serif;
@@ -106,6 +110,25 @@ strong {
   z-index: 100;
   position: relative;
   top: 108px;
+}
+
+#footer-percy>img {
+    float: right;
+}
+
+@media (max-width: 992px) {
+    #footer-percy {
+        top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-percy {
+        top: 5px;
+    }
+    #footer-ellipse-container>.row>.col-xs-4 {
+        top: 45px;
+    }
 }
 
 .cta-footer-button {
