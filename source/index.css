@@ -30,6 +30,12 @@ strong {
   padding-right: 10px;
 }
 
+#top-ellipse {
+  z-index: -1;
+  position: relative;
+  float: right;
+}
+
 .blueSection {
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
@@ -37,7 +43,7 @@ strong {
   margin-top: 50px;
   margin-bottom: 50px;
 
-  padding: 40px 0px 175px 0px;
+  padding: 40px 0px 200px 0px;
   color: white;
   background-color: #21263d;
 }
@@ -55,6 +61,23 @@ strong {
 
 #founders>.row {
  margin-right: 0;
+}
+
+#meet-founders-offset {
+  padding-top: 55px;
+}
+
+#meet-founders-subtext {
+  padding-top: 25px;
+  font-size: 16pt;
+  color: #797b7b;
+}
+
+.meet-founders {
+  font-size: 20px;
+
+  padding: 30px 30px;
+  background-color:  #00cbc4;
 }
 
 .cta-footer-button {
