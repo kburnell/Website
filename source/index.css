@@ -1,0 +1,79 @@
+
+main {
+  margin-top: 100px;
+}
+
+#intro strong {
+  font-family: 'Suez One', serif;
+  font-size: 30pt;
+}
+
+a {
+  color: #00cbc4 !important;
+}
+
+strong {
+  font-family: 'Suez One', serif !important;
+  letter-spacing: 0.75px;
+}
+
+.textEmphasize {
+  font-weight: bold;
+  color: #00cbc4;
+}
+
+.lead {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cta-header-mail {
+  padding-right: 10px;
+}
+
+.blueSection {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding: 40px 0px 175px 0px;
+  color: white;
+  background-color: #21263d;
+}
+
+.blueSection h1 {
+  font-family: 'Suez One', serif;
+  font-size: 20pt;
+}
+
+#founders {
+  z-index: 100;
+  position: relative;
+  top: -175px;
+}
+
+#founders>.row {
+ margin-right: 0;
+}
+
+.cta-footer-button {
+  padding-left: 25px;
+}
+
+.cta-header-mail img {
+  padding-right: 10px;
+  height: 40px;
+}
+
+.nav-tan-footer {
+  background-color: #21263d;
+  color: white;
+  border-radius:0;
+  padding: 20px 50px;
+  margin-bottom: 0px !important;
+}
+
+.nav-tan-footer-social a {
+  padding-right: 10px;
+}
