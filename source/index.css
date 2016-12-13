@@ -3,6 +3,14 @@ main {
   margin-top: 100px;
 }
 
+#navbar {
+  padding: 25px 15px 0px 15px;
+}
+
+#intro {
+  padding-left: 100px;
+}
+
 #intro strong {
   font-family: 'Suez One', serif;
   font-size: 30pt;
@@ -32,8 +40,7 @@ strong {
 
 #top-ellipse {
   z-index: -1;
-  position: relative;
-  float: right;
+  position: absolute;
 }
 
 .blueSection {
@@ -78,6 +85,12 @@ strong {
 
   padding: 30px 30px;
   background-color:  #00cbc4;
+}
+
+#footer-percy {
+  z-index: 100;
+  position: relative;
+  top: 108px;
 }
 
 .cta-footer-button {

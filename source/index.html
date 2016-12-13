@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- top level nav -->
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
       <div class="container-fluid">
 
         <p>
@@ -50,9 +50,11 @@
     </nav>
 
     <section>
-        <div id="top-ellipse">
-          <img src="./images/Ellipse-top.png" />
+      <div class="row">
+        <div id="top-ellipse" class="col-md-2 col-md-offset-10">
+            <img src="./images/Ellipse-top.png" />
         </div>
+      </div>
     </section>
 
     <main>
@@ -72,15 +74,18 @@
             <p>
               <strong>We make software products</strong>
               <br/>
-              <strong>for developers that like <span class="textEmphasize"> simple.</span></strong>
+              <strong>for developers that dig <span class="textEmphasize"> simple.</span></strong>
             </p>
 
           </div>
         </div>
 
+
         <div class="col-md-12">
+          <!--
           <br/>
           <button type="button" class="btn btn-lg">Contact Us</button>
+          -->
         </div>
 
       </section>
@@ -94,9 +99,7 @@
         <div class="row">
           <div class="col-md-7 col-md-offset-2">
             <p class="text-justify">
-              At Tangible we create software products and tools for professional
-              software developers and their businesses. Our products focus on helping
-              Web, Mobile and IOT developes build and deploy their websites to the cloud.
+              At Tangible we create software products and tools for professional software developers and their businesses. Our products focus on helping Web, Mobile and IOT developers build and deploy websites to the cloud.
             </p>
           </div>
         </div>
@@ -212,13 +215,21 @@
 
       </section>
 
+
+
       <section>
+
         <div class="row">
-          <div class="col-md-12">
+
+          <div class="col-md-4">
             <img class="img-responsive" src="./images/FooterEllipse.png" />
           </div>
-        </div>
 
+          <div id="footer-percy" class="col-md-2 col-md-offset-6">
+            <img src="./images/percy.png"/>
+          </div>
+
+        </div>
       </section>
 
     </main>
