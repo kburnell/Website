@@ -34,6 +34,11 @@ strong {
   font-family: 'Open Sans', sans-serif;
 }
 
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
 .cta-header-mail {
   padding-right: 10px;
 }
@@ -42,6 +47,7 @@ strong {
   z-index: -1;
   position: absolute;
 }
+
 
 .blueSection {
   font-family: 'Open Sans', sans-serif;
